@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[TestName:testA Status:PASS]]>
+    </line>
+    <line>
+      <![CDATA[Pass:1]]>
+    </line>
+    <line>
+      <![CDATA[Fail:0]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6523" started-at="2019-01-30T12:38:04Z" finished-at="2019-01-30T12:38:10Z">
+    <groups>
+      <group name="smoke">
+        <method signature="ValidLogin.testA()[pri:1, instance:script.ValidLogin@305fd85d]" name="testA" class="script.ValidLogin"/>
+      </group> <!-- smoke -->
+      <group name="login">
+        <method signature="ValidLogin.testA()[pri:1, instance:script.ValidLogin@305fd85d]" name="testA" class="script.ValidLogin"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="Default test" duration-ms="6523" started-at="2019-01-30T12:38:04Z" finished-at="2019-01-30T12:38:10Z">
+      <class name="script.ValidLogin">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:script.ValidLogin@305fd85d]" name="openApp" is-config="true" duration-ms="3271" started-at="2019-01-30T12:38:04Z" finished-at="2019-01-30T12:38:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[localhost]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testA()[pri:1, instance:script.ValidLogin@305fd85d]" name="testA" duration-ms="2338" started-at="2019-01-30T12:38:07Z" finished-at="2019-01-30T12:38:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@305fd85d]" name="closeApp" is-config="true" duration-ms="890" started-at="2019-01-30T12:38:10Z" finished-at="2019-01-30T12:38:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testA status=SUCCESS method=ValidLogin.testA()[pri:1, instance:script.ValidLogin@305fd85d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestName:testA Status:PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="print()[pri:0, instance:script.ValidLogin@305fd85d]" name="print" is-config="true" duration-ms="74" started-at="2019-01-30T12:38:11Z" finished-at="2019-01-30T12:38:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Pass:1]]>
+            </line>
+            <line>
+              <![CDATA[Fail:0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- print -->
+      </class> <!-- script.ValidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
